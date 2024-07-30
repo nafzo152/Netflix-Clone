@@ -32,3 +32,10 @@ nav{
     height: 62px;
 
 }
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index:10;
+}
