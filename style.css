@@ -24,7 +24,7 @@
 }
 
 nav{
-    max-width: 80vw;
+    max-width: 60vw;
     justify-content: space-between;
     margin: auto;
     display: flex;
@@ -38,4 +38,19 @@ nav img{
     width: 114px;
     position: relative;
     z-index:10;
+}
+
+nav button{
+    position: relative;
+    z-index:10;          
+}
+
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
 }
