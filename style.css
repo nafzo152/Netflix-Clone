@@ -105,6 +105,13 @@ font-size: 20px;
 border-radius: 4px;
 }
 
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
 .main input{
     padding: 3px 24px;
     font-size: 20px;
