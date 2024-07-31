@@ -131,3 +131,16 @@ nav button {
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(23, 23, 23, 0.5);
 }
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+}
+
+.secImg img{
+    width: 30vw;
+}
