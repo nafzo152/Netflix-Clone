@@ -7,6 +7,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: black;   
+}
 
 
 .main {
@@ -14,12 +17,12 @@
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
 .main .box {
-    height: 80vh;
+    height: 78vh;
     width: 100%;
     opacity: 0.44;
     position: absolute;
@@ -51,7 +54,7 @@ nav button {
 
 .hero {
     font-family: 'Martel Sans', sans-serif;
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,21 +62,30 @@ nav button {
     color: white;
     position: relative;
     gap: 23px;
+    padding: 0 30px;
 
 }
 
 .hero> :nth-child(1) {
     font-weight: bolder;
     font-size: 48px;
+    text-align: center;
 
 }
 
 .hero> :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
+    text-align: center;
 }
 
 .hero> :nth-child(3) {
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    height:11px;
+    background-color: gray;
 }
