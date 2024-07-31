@@ -145,7 +145,7 @@ nav button {
 }
 
 @media screen and (max-width:1300px) {
-    .first{
+    .first {
         flex-wrap: wrap;
     }
 }
@@ -214,24 +214,33 @@ section.first>div {
     color: white;
 }
 
-footer{
+footer {
     color: white;
     max-width: 60vw;
     margin: auto;
     padding: 14px;
 }
 
-footer .questions{
+footer .questions {
     padding: 34px 0;
 }
 
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;   
+    color: white;
 }
 
-.footer a{
+@media screen and (max-width:1300px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+    }
+}
+
+
+.footer a {
     font-size: 14px;
     color: white;
 }
@@ -240,6 +249,5 @@ footer .questions{
     display: flex;
     flex-direction: column;
     gap: 23px;
-    
-}
 
+}
