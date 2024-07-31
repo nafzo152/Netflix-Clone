@@ -216,12 +216,13 @@ footer{
     margin: auto;
 }
 
+footer span{
+    margin: 2px 30vw;
+    text-align: center;
+}
+
 .footer-item {
     display: flex;
     flex-direction: column;
 }
 
-.footer span{
-    margin: 2px 30vw;
-    text-align: center;
-}
