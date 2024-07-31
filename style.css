@@ -148,6 +148,22 @@ nav button {
     .first {
         flex-wrap: wrap;
     }
+
+    .secImg img {
+        width: 555px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .secImg video {
+        position: absolute;
+        top: 51px;
+        right: 0;
+        width: 555px;
+    
+    }
+
+
 }
 
 .secImg {
