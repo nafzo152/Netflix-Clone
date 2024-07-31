@@ -141,6 +141,16 @@ nav button {
     color: white;
 }
 
+.secImg{
+    position:relative;
+}
 .secImg img{
     width: 30vw;
+}
+
+.secImg video{
+    position: absolute;
+    width: 21vw;
+    top: 139px;
+    right: 132px;
 }
