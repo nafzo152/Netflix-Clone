@@ -206,23 +206,30 @@ section.first>div {
 
 footer{
     color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .questions{
+    padding: 34px 0;
 }
 
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
-    max-width: 60vw;
-    margin: auto;
+    color: white;   
 }
 
-footer span{
-    margin: 2px 30vw;
-    text-align: center;
+.footer a{
+    font-size: 14px;
+    color: white;
 }
 
 .footer-item {
     display: flex;
     flex-direction: column;
+    gap: 23px;
+    
 }
 
