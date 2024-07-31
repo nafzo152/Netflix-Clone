@@ -93,7 +93,7 @@ nav button {
 
 .btn {
     padding: 3px 8px;
-    font-weight: bold;
+    font-weight: 400;
     color: white;
     background-color: rgba(248, 243, 243, 0.021);
     border-radius: 4px;
