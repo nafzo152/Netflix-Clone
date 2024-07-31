@@ -176,17 +176,25 @@ section.first>div {
 
 .faq h2{
     text-align: center;
+    font-size: 42px;
 }
 .faq{
     background: black;
     color: white;
     padding: 34px;
+    
 }
 .faqbox {
     display: flex;
+    font-size: 24px;
     justify-content: space-between;
     background-color: gray;
     padding: 24px;
-    max-width: 40vw;
+    max-width: 60vw;
     margin: 34px auto;
+    cursor: pointer;
+}
+
+.faqbox:hover{
+    background-color: rgb(37, 36, 36);
 }
