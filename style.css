@@ -42,7 +42,7 @@ nav {
 
 nav img {
     color: red;
-    width: 114px;
+    width: 130px;
     position: relative;
     z-index: 10;
 }
@@ -89,6 +89,9 @@ nav button {
 .separation {
     height: 7px;
     background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+
 }
 
 .btn {
