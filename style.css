@@ -92,5 +92,15 @@ nav button {
 }
 
 .btn{
-    
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-red{
+background-color: red;
+}
+
+.btn-red-sm{
+background-color: red;
 }
