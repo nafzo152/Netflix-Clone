@@ -155,7 +155,7 @@ nav button {
 }
 
 .secImg img {
-    width: 401px;
+    width: 555px;
     position: relative;
     z-index: 10;
 }
@@ -164,7 +164,7 @@ nav button {
     position: absolute;
     top: 51px;
     right: 0;
-    width: 401px;
+    width: 555px;
 
 }
 
