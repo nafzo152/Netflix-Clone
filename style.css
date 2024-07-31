@@ -229,11 +229,17 @@ footer .questions {
     .footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 29px;
+        gap: 25px;
     }
 }
 
+
 @media screen and (max-width:1300px) {
+
+    nav {
+        max-width: 90vw;
+    }
+
     .first {
         flex-wrap: wrap;
     }
@@ -243,9 +249,21 @@ footer .questions {
     }
 
     .secImg video {
-      width: 305px; 
+        width: 305px;
     }
-    
+
+
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    hero> :nth-child(3) {
+        font-size: 18px;
+    }
 }
 
 
