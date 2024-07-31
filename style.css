@@ -173,19 +173,21 @@ section.first>div {
     font-size: 20px;
 }
 
-.faq h2{
+.faq h2 {
     text-align: center;
     font-size: 42px;
 }
-.faq{
+
+.faq {
     background: black;
     color: white;
     padding: 34px;
-    
+
 }
+
 .faqbox {
     color: white;
-    transition:all 1s ease-out;
+    transition: all 1s ease-out;
     display: flex;
     font-size: 24px;
     justify-content: space-between;
@@ -196,14 +198,26 @@ section.first>div {
     cursor: pointer;
 }
 
-.faqbox:hover{
-   
+.faqbox:hover {
+
     background-color: #414141;
     color: white;
 }
 
-footer{
+footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
 
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer span{
+    margin: 2px 30vw;
+    text-align: center;
 }
