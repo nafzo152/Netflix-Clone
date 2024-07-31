@@ -204,7 +204,11 @@ section.first>div {
     color: white;
 }
 
-footer {
+footer{
+    color: white;
+}
+
+.footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
